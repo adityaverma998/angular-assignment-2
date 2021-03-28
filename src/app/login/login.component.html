@@ -1,0 +1,26 @@
+
+<form (ngSubmit)="loginSubmit()" [formGroup]="loginForm">
+
+    <div class="container-fluid">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input id="username" class="username" type="text" formControlName="username">
+        <span *ngIf="username?.invalid && (username?.dirty || username?.touched)">User name is mandatory</span>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input id="password" class="password" type="password" formControlName="password">
+   <span *ngIf="password?.invalid &&(password?.dirty || password?.touched)">Password is mandatory
+        <span *ngIf="password?.errors?.required">Password is Mandatory
+
+        </span>
+        <!-- <span *ngIf="password.errors.minLength">Must be 8 charahters</span>-->
+    </span> 
+    </div>
+        <div class="form-group">
+            
+            <button class="btn btn-primary" mat-button type="submit"   [disabled]="loginForm.invalid">Submit</button>
+        <strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>
+    </div>
+    </div>
+</form>

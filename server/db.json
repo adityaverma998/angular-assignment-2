@@ -1,0 +1,59 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "text": "Shall do at 6 pm"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "text": "Track the new submissions"
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain",
+      "id": 3
+    },
+    {
+      "title": "hello",
+      "text": "1234",
+      "id": 4
+    },
+    {
+      "title": "abcds",
+      "text": "xyz",
+      "id": 5
+    },
+    {
+      "title": "12",
+      "text": "21\n",
+      "id": 6
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 7
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 8
+    },
+    {
+      "title": "Privacy Preserving Machine Learning using Differential Privacy",
+      "text": "hhhhh",
+      "id": 9
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 10
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 11
+    }
+  ]
+}
